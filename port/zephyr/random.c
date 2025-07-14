@@ -5,7 +5,8 @@
  */
 
 #include <oc_random.h>
-#include <syscalls/rand32.h>
+//#include <syscalls/rand32.h>
+#include <zephyr/random/random.h>
 
 void
 oc_random_init(void)
